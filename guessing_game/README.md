@@ -14,3 +14,11 @@ $ cd guessing_game
 ```
 
 Explanations --> [Guessing Game](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html)
+
+Key concepts:
+
+- match function to handle error, can also behave like switch case structure in C --> similar to try:..except:.. block in python
+- some function return type Result. Result is an enum which can take two states, Ok() or Err()
+- crate: libraries (bunch of rust files)
+- expect() enable to catch-up errors and raised them.
+- reference enable to acces value of a variable in multiple piece of the code.
