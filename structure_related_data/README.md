@@ -1,1 +1,1 @@
-[Structured Related Data](https://doc.rust-lang.org/book/ch05-02-example-structs.html)
+[Structured Related Data](https://doc.rust-lang.org/book/ch05-00-structs.html)
