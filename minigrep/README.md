@@ -1,0 +1,1 @@
+main.rs handle the execurion of the prgramm while lib.rs handle the logic behind it !
