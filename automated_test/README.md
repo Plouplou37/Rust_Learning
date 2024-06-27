@@ -1,0 +1,1 @@
+[Writing Automated Test](https://doc.rust-lang.org/book/ch11-00-testing.html)
