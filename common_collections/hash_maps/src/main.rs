@@ -7,7 +7,7 @@ fn main() {
     scores.insert(String::from("Reds"), 50);
 
     let team_name = String::from("Blues");
-
+    let score = scores.get(&team_name).copied().unwrap_or_else(|| 0);
     let kk = match scores.get(&team_name) {
         Some(value) => {
             println!("here is the value {value}");

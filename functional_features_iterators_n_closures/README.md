@@ -1,0 +1,1 @@
+[Functional Language FEatures: Iteratos and Closures](https://doc.rust-lang.org/book/ch13-00-functional-features.html)

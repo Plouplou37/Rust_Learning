@@ -1,4 +1,14 @@
+pub fn reverse(input: &str) -> String {
+    //chain methods, get each chars and reverse
+    input.chars().rev().collect()
+}
+
 fn main() {
+    let name = "Baven";
+
+    let reverse = reverse(name);
+
+    println!("name is {:#?}", reverse);
     /*let mut v: Vector<i32> = Vec::new();
 
     v.psuh(1);
