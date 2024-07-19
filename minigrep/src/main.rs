@@ -1,11 +1,12 @@
 use minigrep::Config;
-use std::{env, process};
+use std::env;
+use std::process;
 
 fn main() {
     //get the value in the args iterator and store them into a Vec<String> args.
-    let args: Vec<String> = env::args().collect(); // <minigrep.exe cmd1 cmd2 ... cmdN>
+    //let args: Vec<String> = env::args().collect(); // <minigrep.exe cmd1 cmd2 ... cmdN>
 
-    let config = Config::build(&args).unwrap_or_else(|err| {
+    let config = Config::build(env::args()).unwrap_or_else(|err| {
         eprintln!("Problem parsing arguments: {err}");
         process::exit(1);
     });
